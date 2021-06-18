@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightcyan;
+}
+
+ul {
+    overflow: auto;
+}
+
+.navbar ul li {
+    float: right;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+li:hover {
+    background-color: rgb(23, 114, 156);
+}
+
+.AboutMyself p {
+    margin: 10px;
+    padding: 60px;
+    font-size: 25px;
+}
+
+a:hover {
+    color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.logo p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    float: right;
+    margin-left: 0px;
+    color: darkblue;
+}
+
+div.AboutMyself {
+    background-color: lightcyan;
+}
+
+div.ContactInfo {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+div.ContactInfo p {
+    font-size: 25px;
+    text-align: center;
+}
+
+div.ContactInfo {
+    background-color: lightcyan;
+    padding: 50px;
+}
+
+div.ContactInfo>.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.ContactInfo a {
+    position: relative;
+    right: 35%;
+    left: 35%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998; 
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(206, 47, 47);
+    color: white;
+}
+.main p{
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+strong{
+    color:red;
+}
+.btn:hover{
+    background-color:linen;
+    color:darkblue;
+    font-size: 20px;
+    border:2px solid black;
+    font-weight: bold;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+background-color:rgb(15, 15, 192);
+color: white;
+padding: 10px;
+margin: 10px;
+width: 20%;
+position: relative;
+left:40%;
+border-radius: 25px;
+}
+
+p#Contact {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: darkblue;
+}
+.main{
+    background-repeat: no-repeat;
+    height:680px;
+    background-image: url(https://images.unsplash.com/photo-1462206092226-f46025ffe607?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80.png);
+    background-size: cover;
+}
