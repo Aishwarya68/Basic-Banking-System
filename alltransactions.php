@@ -21,7 +21,7 @@
 		<p>Golden Horizon Bank</p>
 	</div>
 	<ul>
-		<li><a href="home.html">Home</a></li>
+		<li><a href="index.php">Home</a></li>
 	</ul>
 </nav>
 
